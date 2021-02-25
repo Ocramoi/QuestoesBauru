@@ -1,144 +1,130 @@
 {
     "questoes": [
         {
-            "Qual foi o nome anterior da Avenida Rodrigues Alves?": {
-                "erradas": [
-                    "Francisco Alves",
-                    "Roberto Carlos",
-                    "Lucas Neto"
-                ],
-                "correta": "Afredo Maia"
-            }
+            "pergunta": "Qual foi o nome anterior da Avenida Rodrigues Alves?",
+            "erradas": [
+                "Francisco Alves",
+                "Roberto Carlos",
+                "Lucas Neto"
+            ],
+            "correta": "Afredo Maia"
         },
         {
-            "Qual foi o nome da primeira vila de Bauru?": {
-                "erradas": [
-                    "Jardim Bela Vista",
-                    "Estoril",
-                    "Independência"
-                ],
-                "correta": "Vila Falcão"
-            }
+            "pergunta": "Qual foi o nome da primeira vila de Bauru?",
+            "erradas": [
+                "Jardim Bela Vista",
+                "Estoril",
+                "Independência"
+            ],
+            "correta": "Vila Falcão"
         },
         {
-            "Quem é a atual prefeita de Bauru?": {
-                "erradas": [
-                    "Dilma Rousseff",
-                    "Clarice Lispector",
-                    "Chiara Ranieri"
-                ],
-                "correta": "Suellen Rosim"
-            }
+            "pergunta": "Quem é a atual prefeita de Bauru?",
+            "erradas": [
+                "Dilma Rousseff",
+                "Clarice Lispector",
+                "Chiara Ranieri"
+            ],
+            "correta": "Suellen Rosim"
         },
         {
-            "Qual era a tribo indígena que habitava o território do atual município de Bauru?": {
-                "erradas": [
-                    "Aimorés",
-                    "Tupi Guarani",
-                    "Caiapós"
-                ],
-                "correta": "Caingangues"
-            }
+            "pergunta": "Qual era a tribo indígena que habitava o território do atual município de Bauru?",
+            "erradas": [
+                "Aimorés",
+                "Tupi Guarani",
+                "Caiapós"
+            ],
+            "correta": "Caingangues"
         },
         {
-            "Qual é o significado da expressão Custos Vigilat gravada no Brasão de Armas de Bauru?": {
-                "erradas": [
-                    "Custo de vida",
-                    "Coração valente",
-                    "Castelo seguro"
-                ],
-                "correta": "Sentinela sempre vigilante"
-            }
+            "pergunta": "Qual é o significado da expressão Custos Vigilat gravada no Brasão de Armas de Bauru?",
+            "erradas": [
+                "Custo de vida",
+                "Coração valente",
+                "Castelo seguro"
+            ],
+            "correta": "Sentinela sempre vigilante"
         },
         {
-            "Qual foi a primeira instituição de ensino superior de Bauru?": {
-                "erradas": [
-                    "Faculdade de Medicina (USP)",
-                    "Anhanguera Educacional",
-                    "FIB Bauru"
-                ],
-                "correta": "Faculdade de Direito de Bauru (ITE)"
-            }
+            "pergunta":  "Qual foi a primeira instituição de ensino superior de Bauru?",
+            "erradas": [
+                "Faculdade de Medicina (USP)",
+                "Anhanguera Educacional",
+                "FIB Bauru"
+            ],
+            "correta": "Faculdade de Direito de Bauru (ITE)"
         },
         {
-            "Qual jornal bauruense foi fundado em 01/01/1967?": {
-                "erradas": [
-                    "Diário de Bauru",
-                    "Diário do Noroeste",
-                    "Jornal Dois"
-                ],
-                "correta": "Jornal da Cidade"
-            }
+            "pergunta": "Qual jornal bauruense foi fundado em 01/01/1967?",
+            "erradas": [
+                "Diário de Bauru",
+                "Diário do Noroeste",
+                "Jornal Dois"
+            ],
+            "correta": "Jornal da Cidade"
         },
         {
-            "Em que ano foi inaugurado o Anfiteatro Vitória Régia?": {
-                "erradas": [
-                    "1964",
-                    "1980",
-                    "1990"
-                ],
-                "correta": "1978"
-            }
+            "pergunta": "Em que ano foi inaugurado o Anfiteatro Vitória Régia?",
+            "erradas": [
+                "1964",
+                "1980",
+                "1990"
+            ],
+            "correta": "1978"
         },
         {
-            "Qual foi a primeira emissora de rádio a se instalar em Bauru?": {
-                "erradas": [
-                    "Rádio Auriverde",
-                    "Rádio Bandeirantes",
-                    "Jovem Pan"
-                ],
-                "correta": "Rádio Emissora 'PRG-8'"
-            }
+            "pergunta": "Qual foi a primeira emissora de rádio a se instalar em Bauru?",
+            "erradas": [
+                "Rádio Auriverde",
+                "Rádio Bandeirantes",
+                "Jovem Pan"
+            ],
+            "correta": "Rádio Emissora 'PRG-8'"
         },
         {
-            "Quais são os símbolos municipais de Bauru?": {
-                "erradas": [
-                    "Hino, sanduíche Bauru e bandeira",
-                    "Bandeira, hino e o slogan 'Bauru, Cidade sem Limites'",
-                    "Parque Vitória-Régia, sanduíche Bauru e bandeira"
-                ],
-                "correta": "Bandeira, hino e Brasão de Armas"
-            }
+            "pergunta": "Quais são os símbolos municipais de Bauru?",
+            "erradas": [
+                "Hino, sanduíche Bauru e bandeira",
+                "Bandeira, hino e o slogan 'Bauru, Cidade sem Limites'",
+                "Parque Vitória-Régia, sanduíche Bauru e bandeira"
+            ],
+            "correta": "Bandeira, hino e Brasão de Armas"
         },
         {
-            "Que jogador de futebol mundialmente conhecido que morou e jogou na cidade de Bauru?": {
-                "erradas": [
-                    "Neymar",
-                    "Zico",
-                    "Diego Souza"
-                ],
-                "correta": "Pelé"
-            }
+            "pergunta": "Que jogador de futebol mundialmente conhecido que morou e jogou na cidade de Bauru?",
+            "erradas": [
+                "Neymar",
+                "Zico",
+                "Diego Souza"
+            ],
+            "correta": "Pelé"
         },
         {
-            "A formação vegetal nativa de Bauru é": {
-                "erradas": [
-                    "Mata Atlântica",
-                    "Mangue",
-                    "Pantanal"
-                ],
-                "correta": "Cerrado"
-            }
+            "pergunta": "A formação vegetal nativa de Bauru é",
+            "erradas": [
+                "Mata Atlântica",
+                "Mangue",
+                "Pantanal"
+            ],
+            "correta": "Cerrado"
         },
         {
-            "Qual é o nome do aquífero que também fornece água para consumo dos bauruenses?": {
-                "erradas": [
-                    "Aquífero Paraty",
-                    "Aquífero São Paulo",
-                    "Aquífero Tupi"
-                ],
-                "correta": "Aquífero Guarani"
-            }
+            "pergunta": "Qual é o nome do aquífero que também fornece água para consumo dos bauruenses?",
+            "erradas": [
+                "Aquífero Paraty",
+                "Aquífero São Paulo",
+                "Aquífero Tupi"
+            ],
+            "correta": "Aquífero Guarani"
         },
         {
-            "O nome do rio que abastece 38% da população de Bauru é:": {
-                "erradas": [
-                    "Rio Tietê",
-                    "Rio Bauru",
-                    "Rio Jacaré Pepira"
-                ],
-                "correta": "Rio Batalha"
-            }
+            "pergunta": "O nome do rio que abastece 38% da população de Bauru é:",
+            "erradas": [
+                "Rio Tietê",
+                "Rio Bauru",
+                "Rio Jacaré Pepira"
+            ],
+            "correta": "Rio Batalha"
         }
     ]
 }
