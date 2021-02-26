@@ -63,7 +63,6 @@ function novaQuestao(questaoAtual) {
 }
 
 function fimDeJogo() {
-    console.log("AAAAa");
     mainTexto.style.display = "grid";
     elQuestoes.style.display = "none";
 
