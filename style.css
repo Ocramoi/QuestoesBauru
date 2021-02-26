@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+:root {
+    /* Colorscheme: Greenery + Gradients Website Color Scheme 2021 by Anna Senkova - https://dribbble.com/shots/6542941-Cacti-Succulents-Store-Web-site-Concept */
+    --dark-green: #164A41;
+    --medium-green: #4D774E;
+    --light-green: #9DC88D;
+    --natural-yellow: #F1B24A;
+    --white: #F8F8F8
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'RocknRoll One', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--medium-green);
+}
+
+header {
+    font-weight: bolder;
+    color: var(--natural-yellow);
+    position: absolute;
+    top: 1rem;
+    left: 50vw;
+    transform: translate(-50%, 0);
+    font-size: 2rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-style: italic;
+    font-size: 0.7rem;
+    color: var(--natural-yellow);
+}
+
+main {
+    background-color: var(--light-green);
+    width: 90%;
+    height: calc(100vh - 3rem - 2rem);
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #0f0f0f;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+button {
+    background-color: var(--dark-green);
+    color: var(--natural-yellow);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mainTexto {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 2rem auto 2rem;
+    grid-template-columns: auto;
+    grid-template-areas: 'titulo'
+                         'texto'
+                         'botao';
+}
+
+#questoes {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: min-content auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'pergunta pergunta'
+                         'op1 op2'
+                         'op3 op4';
+}
+
+#pergunta {
+    grid-area: pergunta;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.opcao {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--medium-green);
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+.opcao span {
+    text-align: center;
+    width: 100%;
+}
+
+#loadscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--dark-green);
+    z-index: 100;
+}
+
+#loadscreen img {
+    width: max(20vw, 100px);
+    height: max(20vw, 100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

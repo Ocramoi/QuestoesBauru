@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Questões Interativas</title>
+        <meta name="description" content="Questões interativas do livro 'Bauru: uma Cidade Sem Limites'">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet"/>
+
+        <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+        <!-- Place favicon.ico in the root directory -->
+
+    </head>
+    <body>
+        <div id="loadscreen">
+            <img alt="Loading" src="assets/imgs/load.gif"/>
+        </div>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">
+            You are using an <strong>outdated</strong> browser. Please
+            <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+            your experience.
+            </p>
+        <![endif]-->
+
+        <header>Questões Interativas</header>
+
+        <main>
+            <div id="mainTexto">
+                <div style="grid-area: titulo; font-size: 1.5rem; font-weight: bold;">Questões</div>
+                <div style="grid-area: texto; display: flex; align-items: center;">
+                    <span style="text-align: center; width: 100%;">
+                        Bem vinde ao jogo
+                    </span>
+                </div>
+                <div style="grid-area: botao;">
+                    <button id="botaoComecar" style="font-size: 1.3rem">Começar!</button>
+                </div>
+            </div>
+
+            <div id="questoes" style="display: none;">
+                <div id="pergunta">Pergunta</div>
+                <div id="opcao1" class="opcao" style="grid-area: op1;">
+                    <span>teste</span>
+                </div>
+                <div id="opcao2" class="opcao" style="grid-area: op2;">
+                    <span>teste</span>
+                </div>
+                <div id="opcao3" class="opcao" style="grid-area: op3;">
+                    <span>teste</span>
+                </div>
+                <div id="opcao4" class="opcao" style="grid-area: op4;">
+                    <span>teste</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            Marco Toledo - 2021
+        </footer>
+
+        <script src="index.js"></script>
+    </body>
+</html>
