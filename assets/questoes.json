@@ -10,7 +10,7 @@
             "correta": "Afredo Maia"
         },
         {
-            "pergunta": "Qual foi o nome da primeira vila de Bauru?",
+            "pergunta": "Qual é o nome da primeira vila de Bauru?",
             "erradas": [
                 "Jardim Bela Vista",
                 "Estoril",
@@ -118,7 +118,7 @@
             "correta": "Aquífero Guarani"
         },
         {
-            "pergunta": "O nome do rio que abastece 38% da população de Bauru é:",
+            "pergunta": "O nome do rio que abastece 38% da população de Bauru é",
             "erradas": [
                 "Rio Tietê",
                 "Rio Bauru",

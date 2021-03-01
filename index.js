@@ -10,6 +10,7 @@ const reqQuestoes    = new Request("https://raw.githubusercontent.com/Ocramoi/Qu
                         document.getElementById("opcao4")];
 
 let questoes,
+    questoesRaw,
     totalQuestoes = 5,
     numCorretas = 0;
 
@@ -31,9 +32,9 @@ window.onload = (e) => {
 };
 
 function carregaQuestoes(data) {
-    questoes = shuffle(data.questoes).slice(0, totalQuestoes);
+    questoesRaw = data.questoes;
+    questoes = shuffle(questoesRaw).slice(0, totalQuestoes);
     document.getElementById("loadscreen").style.display = "none";
-
 }
 
 function novaQuestao(questaoAtual) {
@@ -62,14 +63,36 @@ function novaQuestao(questaoAtual) {
     });
 }
 
+function qanda() {
+    return textoRetorno;
+}
+
 function fimDeJogo() {
     mainTexto.style.display = "grid";
     elQuestoes.style.display = "none";
 
+    let textoPerguntasERespostas = "";
+    questoes.forEach((questao, idx, quests) => {
+         textoPerguntasERespostas += "<b>" + questao.pergunta + ":</b> <br>&emsp;<i>" + questao.correta + "</i> <br>";
+    });
+
     let els = mainTexto.children;
     els[0].innerHTML = `Fim de jogo!`;
-    els[1].innerHTML = `<span style="text-align: center; width: 100%;">Seu placar final foi ${numCorretas}/${totalQuestoes}!</span>`;
-    els[2].innerHTML = `<button id="botaoComecar" onclick='location.reload()' style="font-size: 1.3rem">Novo jogo</button>`;
+    els[1].innerHTML = `<div style="text-align: center; width: 100%; margin-left: 10px; margin-right: 10px;">` +
+                            `<b>Seu placar final foi ${numCorretas}/${totalQuestoes}!</b> <br><br>` +
+                            `Questões apresentadas:<br>` +
+                            `<div style="text-align: justify; width: 100%;"> ${textoPerguntasERespostas} </div>` +
+                       `</div>`;
+    els[2].innerHTML = `<button id="botaoNovoJogo" style="font-size: 1.3rem; margin-bottom: 5px;">Novo jogo</button><br>`;
+
+    document.getElementById("botaoNovoJogo").onclick = (e) => {
+        numCorretas = 0;
+        questoes = shuffle(questoesRaw).slice(0, totalQuestoes);
+        mainTexto.style.display = "none";
+        elQuestoes.style.display = "grid";
+
+        novaQuestao(0);
+    };
 }
 
 function trataSelecao(selecionada, correta, questaoAtual) {
