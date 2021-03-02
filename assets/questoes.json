@@ -10,7 +10,7 @@
             "correta": "Afredo Maia"
         },
         {
-            "pergunta": "Qual é o nome da primeira vila de Bauru?",
+            "pergunta": "Qual o nome da primeira vila de Bauru?",
             "erradas": [
                 "Jardim Bela Vista",
                 "Estoril",
@@ -28,7 +28,7 @@
             "correta": "Suellen Rosim"
         },
         {
-            "pergunta": "Qual era a tribo indígena que habitava o território do atual município de Bauru?",
+            "pergunta": "Qual a tribo indígena que habitava o território do atual município de Bauru?",
             "erradas": [
                 "Aimorés",
                 "Tupi Guarani",
@@ -37,7 +37,7 @@
             "correta": "Caingangues"
         },
         {
-            "pergunta": "Qual é o significado da expressão Custos Vigilat gravada no Brasão de Armas de Bauru?",
+            "pergunta": "Qual o significado da expressão Custos Vigilat gravada no Brasão de Armas de Bauru?",
             "erradas": [
                 "Custo de vida",
                 "Coração valente",
@@ -46,7 +46,7 @@
             "correta": "Sentinela sempre vigilante"
         },
         {
-            "pergunta":  "Qual foi a primeira instituição de ensino superior de Bauru?",
+            "pergunta":  "Qual a primeira instituição de ensino superior de Bauru?",
             "erradas": [
                 "Faculdade de Medicina (USP)",
                 "Anhanguera Educacional",
@@ -64,13 +64,13 @@
             "correta": "Jornal da Cidade"
         },
         {
-            "pergunta": "Em que ano foi inaugurado o Anfiteatro Vitória Régia?",
+            "pergunta": "Qual o ponto turístico bauruense inspirado nos modelos de teatro ao ar livre da Grécia Antiga?",
             "erradas": [
-                "1964",
-                "1980",
-                "1990"
+                "Praça da Paz",
+                "Bosque da Comunidade",
+                "Praça Rui Barbosa"
             ],
-            "correta": "1978"
+            "correta": "Parque Vitória Régia"
         },
         {
             "pergunta": "Qual foi a primeira emissora de rádio a se instalar em Bauru?",
@@ -91,7 +91,7 @@
             "correta": "Bandeira, hino e Brasão de Armas"
         },
         {
-            "pergunta": "Que jogador de futebol mundialmente conhecido que morou e jogou na cidade de Bauru?",
+            "pergunta": "Que jogador de futebol, mundialmente conhecido, morou e jogou na cidade de Bauru?",
             "erradas": [
                 "Neymar",
                 "Zico",
@@ -125,6 +125,33 @@
                 "Rio Jacaré Pepira"
             ],
             "correta": "Rio Batalha"
+        },
+        {
+            "pergunta": "Animais da fauna bauruense",
+            "erradas": [
+                "Lobo guará, cachorro do mato e lhama",
+                "Onça pintada, gavião e búfalo",
+                "Tamanduá bandeira, alpaca e dromedário"
+            ],
+            "correta": "Seriema, lobo guará e onça parda"
+        },
+        {
+            "pergunta": "Características da vegetação do cerrado",
+            "erradas": [
+                "Árvores altas e frondosas",
+                "Raízes rasas e troncos lisos",
+                "Galhos tortuosos com formato conífero"
+            ],
+            "correta": "Raízes profundas e galhos tortuosos"
+        },
+        {
+            "pergunta": "Personagens ilustres que não vivem ou viveram em Bauru",
+            "erradas": [
+                "Déborah Padua Mello Neves e Paulo Neves",
+                "Osíris Silva e Edson Celulari",
+                "Pelé e Marcos Pontes"
+            ],
+            "correta": "Maurício de Souza e Sabrina Sato"
         }
     ]
 }
